@@ -1,0 +1,118 @@
+@import 'styles.css';
+@import 'nav.css';
+
+.about-heading{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(44, 84, 196);
+    padding: 20px;
+    margin-bottom: 2em;
+}
+.about-heading ul li{
+    display: inline-block;
+    margin-left: 1em;
+}
+.about-heading ul li a{
+    color: #fff;
+    font-size: 1.5em;
+    padding: 1em;
+}
+#contact-us{
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.contact-container{
+    width: 80%;
+    margin: 2em auto;
+    background-color: #fff;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+.contact-container .top-info{
+    width: 70%;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 2em;
+    /* border-bottom: 1px solid rgb(175, 174, 174); */
+}
+.contact-container .top-info .sales{
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+.contact-container .top-info p{
+    max-width: 70ch;
+    line-height: 2em;
+}
+
+.wrapperr{
+    width: 90%;
+    margin: 2em auto;
+}
+.wrapperr .text-input{
+    width: 90%;
+    border: 1px solid #c7c4c4;
+    padding: 10px;
+    font-size: 1em;
+    outline: none;
+}
+.wrapperr .text-input:focus{
+    border: 2px solid rgb(0, 119, 255);
+}
+.wrapperr p{
+    font-weight: 700;
+    margin-top: 1em;
+}
+.phone-grid{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+.btn-message{
+    margin-top: 2em;
+    width: 30%;
+    background-color: rgb(212, 125, 25);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding: 20px;
+    transition: background-color 150ms ease-in-out;
+}
+.btn-message:hover{
+    background-color: rgb(173, 109, 12);
+    cursor: pointer;
+}
+.terms{
+    text-align: center;
+    margin-top: 2em;
+}
+
+/*About Section*/
+.about-info{
+    width: 70%;
+    margin-left: 2em;
+}
+.about-info p{
+    font-size: 1.2em;
+    line-height: 2em;
+    color: rgb(90, 89, 89);
+}
+.about-info .top-p{
+    margin-bottom: 1em;
+}
+
+/* Media Queries*/
+@media only screen and (max-width: 750px){
+    .contact-container .top-info{
+        width: 100%;
+    }
+    .btn-message{
+        font-size: 1em;
+        width: 60%;
+    }
+    .about-heading ul li a{
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,118 @@
+.job-details-header{
+    width: 90%;
+    height: 10vh;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    padding: 1em;
+    margin-top: 2em;
+    box-shadow: 0 .35em rgba(161, 161, 168, 0.5);
+}
+.job-details-header h6{
+    font-size: 1em;
+    float: left;
+    margin-right: 2em;
+}
+
+.single-job-content{
+    width: 90%;
+    margin: 2em auto 2em auto;
+    background-color: rgb(196, 185, 185);
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 2em;
+    margin: 2em auto 0 auto;
+}
+.single-job-content .main-bar{
+    background-color: #fff;
+    box-shadow: 0 .35em rgba(161, 161, 168, 0.5);
+}
+.single-job-content .sideBar{
+    background-color: rgb(248, 244, 244);
+    box-shadow: 0 .35em rgba(161, 161, 168, 0.5);
+}
+.single-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.single-grid .icon{
+    margin-top: 1em;
+    margin-left: 7px;
+    width: 70px;
+    height: 10vh;
+    background-color: rgb(150, 135, 133);
+    border-radius: 50%;
+    float: left;
+}
+.single-top-content{
+    padding-bottom: 2em;
+    margin: 2em 0;
+    border-bottom: 1px solid rgb(179, 176, 176);
+    position: relative;
+}
+.single-top-content h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.tool-icon{
+    font-size: 2em;
+    margin: .5em 0 0 20px;
+    color: #fff;
+    text-align: center;
+}
+.new{
+    position: absolute;
+    right: 15px;
+    top: 2px;
+    width: 3em;
+    border: 1px solid rgb(255, 81, 0);
+    color: rgb(255, 81, 0);
+    border-radius: 10px;
+    padding: 6px;
+}
+.single-bottom-content{
+    margin-left: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid rgb(179, 176, 176);
+}
+.single-bottom-content h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.single-bottom-content p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.single-bottom-content ul li{
+    font-size: 1em;
+    margin-bottom: 10px;
+    margin-left: 3em;
+}
+.sideBar h3{
+    font-size: 1.5em;
+    margin-top: .8em;
+    margin-left: 1em;
+}
+.input-text{
+    width: 90%;
+    padding: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #ede;
+    border-radius: 4px;
+    outline: none;
+}
+.input-text:focus{
+    border: 2px solid rgb(32, 87, 133);
+}
+.btn-small{
+    width: 15em;
+    padding: 20px;
+    margin-left: 2em;
+}
+.sideBar p{
+    margin: 2em;
+}
+.sideBar a{
+    color: #df8919;
+}

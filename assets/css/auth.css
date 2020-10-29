@@ -1,0 +1,233 @@
+@import 'styles.css';
+#create-an-account{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 2em;
+    color: rgb(63, 62, 62);
+}
+.pick-acct{
+    width: 90%;
+    background-color: #fff;
+    margin: 3em auto 0 auto;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1em;
+}
+.pick-acct .seeker{
+    border-right: 1px solid rgb(185, 184, 184);
+    padding-right: 10px;
+}
+.pick-acct .seeker .icon{
+    margin-top: 1em;
+    width: 150px;
+    height: 20vh;
+    background-color: rgb(150, 135, 133);
+    border-radius: 50%;
+}
+.pick-acct .employer .icon{
+    width: 150px;
+    height: 20vh;
+    margin-top: 1em;
+    background-color: rgb(150, 135, 133);
+    border-radius: 50%;
+}
+.seeker-info{
+    width: 30vw;
+    margin: 0 auto;
+}
+.seeker-info h3{
+    margin-top: .8em;
+    margin-bottom: .8em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 800;
+}
+.seeker p{
+    margin-left: 15px;
+    font-size: 1.2em;
+    word-spacing: 7px;
+}
+.employer p{
+    font-size: 1.2em;
+    margin-left: 15px;
+}
+.user-icon{
+    font-size: 5em;
+    color: #fff;
+    text-align: center;
+    margin: .1em 0 0 35px;
+}
+.pick-acct-btn{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    
+}
+.seeker-acct{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 2em;
+}
+.one-click{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: .7em;
+}
+.auth{
+    width: 80%;
+    margin: 2em auto;
+    padding-bottom: 4em;
+    background-color: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.auth #title{
+    width: 100%;
+    background-color: royalblue;
+    height: 10vh;
+    padding: 10px;
+}
+.auth #title h3{
+    font-size: 2em;
+    text-align: center;
+}
+.auth-content{
+   width: 60%;
+   margin: 1em auto 0 auto;
+}
+.auth-content > div{
+    margin-left: 1em;
+}
+.auth-content .input-text{
+    width: 90%;
+    padding: 1em;
+    border: 1px solid #ede;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1em;
+}
+.auth-content .input-text:focus{
+    border: 2px solid rgb(32, 87, 133);
+}
+.auth-content p{
+    font-size: 1em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+.auth-content .grid-wrapper{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.info{
+    font-size: 1em;
+    margin-left: 2em;
+}
+.btn-register{
+    margin-left: 3em;
+    padding: 20px;
+    font-size: 2em;
+}
+.signin-link{
+    width: 60%;
+    margin: 1em auto;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5em;
+}
+/*For Login*/
+.login-auth{
+    width: 90%;
+    height: 100vh;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+}
+.login-details{
+    width: 100%;
+    height: 90vh;
+    background-color: #fff;
+}
+.login-details h4{
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 2em;
+}
+.login-details .text-input{
+    width: 90%;
+    margin-bottom: 5px;
+    margin-left: 1em;
+    padding: 1em;
+    font-size: 1em;
+    border: 1px solid #ede;
+    background-color: transparent;
+    border-radius: 4px;
+    outline: none;
+}
+.login-details .text-input:focus{
+    border: 2px solid rgb(126, 163, 194);
+    background-color: rgb(223, 234, 236);
+}
+.img-bg{
+    width: 100%;
+    height: 90vh;
+    background: url(../images/laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#check{
+    float: left;
+    margin: .3em 5px 0 1em;
+}
+#forget-pwd{
+    float: right;
+    margin-right: 7px;
+    color: rgb(255, 102, 0);
+}
+.btn-login{
+    font-size: 2em;
+    padding: 15px;
+    width: 60%;
+    margin-left: 1em;
+}
+.acct{
+    margin: 1em;
+    font-size: 1em;
+    text-align: center;
+}
+.link{
+   margin-left: 8em;
+   font-size: 1.5em;
+   color: rgb(255, 102, 0);
+}
+
+@media only screen and (max-width: 750px){
+    .auth{
+        width: 100%;
+    }
+    .btn-register{
+        margin-left: 1em;
+        padding: 10px;
+        font-size: 1em;
+    }
+    .login-auth{
+        display: block;
+    }
+    .login-details{
+        width: 100%;
+    }
+    .img-bg{
+        display: none;
+    }
+    .pick-acct{
+        display: flex;
+        flex-direction: column;
+    }
+    .pick-acct .seeker{
+        border: none;
+    }
+}
